@@ -1,0 +1,18 @@
+@font-face {
+	font-family:'font3885c0cebfbc3e55fbe30ad45a165586';
+src:url('https://nomail.com.ua/files/eot/3885c0cebfbc3e55fbe30ad45a165586.eot?#iefix') 
+format('embedded-opentype'),url('https://nomail.com.ua/files/woff/3885c0cebfbc3e55fbe30ad45a165586.woff') 
+format('woff'),url('https://nomail.com.ua/files/woff2/3885c0cebfbc3e55fbe30ad45a165586.woff2') 
+format('woff2');
+}
+@font-face {
+	font-family:'AvenirNext-Medium';
+src:local('AvenirNext-Medium'),url('https://nomail.com.ua/files/woff/3885c0cebfbc3e55fbe30ad45a165586.woff') 
+format('woff');
+}
+#avenirnextmedium {
+	font-family:'AvenirNext-Medium';
+}
+.font3885c0cebfbc3e55fbe30ad45a165586 {
+	font-family:'font3885c0cebfbc3e55fbe30ad45a165586';
+}

@@ -1,0 +1,26 @@
+/*HEADER*/
+header {
+	height: 1488px;
+	background-color: #000;
+}
+nav {
+	height: 187px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	display: inline-block;
+	padding: 0 35px;
+}
+.menu li a{
+	color: #fff;
+	text-transform: uppercase;
+}
