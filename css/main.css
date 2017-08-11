@@ -20,7 +20,7 @@
 	top:-75px;
 	background-color: #fff;
 	color: #000;
-	box-shadow:rgba(0,0,0,.7) 0 0 20px ;
+	box-shadow: 0 0 20px rgba(0,0,0,.7);
 }
 
 /*HEADER*/
@@ -40,6 +40,7 @@ nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background-color: #000;
 }
 .menu li {
 	display: inline-block;
@@ -58,6 +59,9 @@ nav {
 	border: solid 1px #ccccd3;
 	padding: 10px 35px;
 	}
+	#menu_top {
+		margin: 0;
+	}
 .logo {
 	padding: 32px 10px;
 }
@@ -70,7 +74,7 @@ nav {
 	color: #fff;
 }
 .title_info{
-	padding: 215px 0;
+	padding: 215px 0 0;
 
 }
 .title_img {
@@ -82,4 +86,5 @@ nav {
 .arrow {
 	text-align: center;
 	position: relative;
+	width: 100%;
 }

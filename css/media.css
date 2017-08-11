@@ -16,17 +16,19 @@
 		padding: 34px 0;
 	}
 	.menu li a{
-		padding: 11px 16px;
+		padding: 11px 14px;
 		font-size: 12px;
 	}
 	.menu li a:hover,
 	.menu li a:focus {
-		padding: 10px 15px;
+		padding: 10px 13px;
 	}
 	.logo img{
 	height: 26px;
 	}
-
+	.title_img {
+		padding-left: 90px;
+	}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -40,15 +42,53 @@
 		display: block;
 		padding: 15px;
 		text-align: center;
-		
-	}
+
+		}
 	.menu li a{
 		font-size: 16px;
+		
 	}
+	.title_img {
+	padding:90px 0 0 50px;	
+	}
+	.title_img img{
+	height: 450px;
+}
+.title_info{
+	padding: 115px 0 0 20px;
+}
+header {
+	height: 500px;
+}
+.circle_btn {
+	top: -60px;
+}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	
+	.title_info {
+		width: 100%;
+		text-align: center;
+			}
+
+	.circle_btn {
+		top: -20px;
+	}
+	/*.btn_info {
+		text-align: center;
+	}*/
+	header{
+	height: auto;
+	}
+	.title_img{
+		
+		padding: 50px 0 0 150px;
+	}
+	.title_img img{
+		height: 350px;
+		
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
