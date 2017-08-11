@@ -4,6 +4,24 @@
 	padding:5px 15px;
 	color: #fff;
 }
+.info_btn {
+	background-color: #0042ff;
+	font-size: 12px;
+	padding:15px 50px;
+	}
+.circle_btn {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	top:-75px;
+	background-color: #fff;
+	color: #000;
+	box-shadow:rgba(0,0,0,.7) 0 0 20px ;
+}
 
 /*HEADER*/
 header {
@@ -45,4 +63,23 @@ nav {
 }
 .logo img{
 	height: 30px;
+}
+/*TITLE BLOCK*/
+.title_block {
+	/*padding: 15px;*/
+	color: #fff;
+}
+.title_info{
+	padding: 215px 0;
+
+}
+.title_img {
+	padding: 110px 0 0 150px;
+}
+.title_img img{
+	height: 650px;
+}
+.arrow {
+	text-align: center;
+	position: relative;
 }
