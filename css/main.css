@@ -88,3 +88,41 @@ nav {
 	position: relative;
 	width: 100%;
 }
+/*WORKS BLOCK*/
+.works_block {
+	text-align: center;
+	padding: 75px 0;
+}
+.works_block  h3{
+	font-family: 'AvenirNext-DemiBold';
+	font-size: 32px;
+}
+.works_block p{
+	font-family: 'AvenirNext-Regular';
+	font-size: 16px;
+}
+/*.work_img {
+	position: relative;
+}
+.image_wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,69,69,.6);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	opacity: 0;
+}
+.work_img:hover .image_wrap{
+	opacity: 1;
+}
+.work_descr {
+	color: #fff;
+	text-align: center;
+	margin:auto;
+}*/
