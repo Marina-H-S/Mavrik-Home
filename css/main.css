@@ -91,26 +91,33 @@ nav {
 /*WORKS BLOCK*/
 .works_block {
 	text-align: center;
-	padding: 75px 0;
+	padding: 110px 55px;
 }
 .works_block  h3{
 	font-family: 'AvenirNext-DemiBold';
 	font-size: 32px;
+
+}
+.title_works{
+	padding-bottom: 70px;
 }
 .works_block p{
 	font-family: 'AvenirNext-Regular';
 	font-size: 16px;
 }
-/*.work_img {
+.work{
+	padding: 10px;
+}
+.work_img {
 	position: relative;
 }
-.image_wrap {
+.img_wrap {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(232,69,69,.6);
+	background-color: rgba(0,0,0,.6);
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -118,11 +125,12 @@ nav {
 	display: flex;
 	opacity: 0;
 }
-.work_img:hover .image_wrap{
+.work_img:hover .img_wrap{
 	opacity: 1;
 }
+
 .work_descr {
 	color: #fff;
 	text-align: center;
 	margin:auto;
-}*/
+}
