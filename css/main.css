@@ -8,6 +8,7 @@
 	background-color: #0042ff;
 	font-size: 12px;
 	padding:15px 50px;
+	color: #fff;
 	}
 .circle_btn {
 	width: 35px;
@@ -133,4 +134,32 @@ nav {
 	color: #fff;
 	text-align: center;
 	margin:auto;
+}
+
+/* OFFERINGS BLOCK */
+.offetings{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.title_offerings h3{
+	padding-top: 110px;
+	font-family: 'AvenirNext-DemiBold';
+	font-size: 32px;
+}
+.title_offerings p{
+	font-family: 'AvenirNext-Regular';
+	font-size: 16px;
+}
+.offer_param {
+	padding:80px 0 60px 0;
+	font-family: 'AvenirNext-Regular';
+}
+.offer_param h5{
+	font-family: 'AvenirNext-Regular';
+}
+.offetings button{
+	margin: 60px 0 110px 0;
+}
+.item {
+	padding:0 25%;
 }
