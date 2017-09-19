@@ -163,3 +163,66 @@ nav {
 .item {
 	padding:0 25%;
 }
+/*PAST PROJECTS SECTION*/
+.past_projects {
+	background-color: #2f2f2f;
+	color:#fff;
+	padding: 110px 0 110px 0;
+}
+.past_projects h3{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.past_projects h2{
+	padding-top: 50px;
+}
+
+.past_projects li{
+	
+	list-style-type: none;
+text-align: center;
+}
+.past_projects #li1:before{
+	content: url(../img/pointer.png);
+}
+.past_projects #li2:before{
+	content: url(../img/home.png);
+}
+.past_projects #li3:before{
+	content: url(../img/layers.png);
+}
+/*COMENT SECTION*/
+.coments {
+	background-color: #fff;
+	padding: 115px 0 115px 0;
+	text-align: center;
+}
+
+.carousel-control.left {
+	background-image: url(../img/galery.jpg);
+}
+.carousel-control.right {
+	background-image: url(../img/galery.jpg);
+}
+.left_arow.carousel-control.left {
+	background-image: none;
+}
+.right_arow.carousel-control.right {
+	background-image: none;
+}
+.coments .item img {
+	margin-left: 250px;
+}
+/*FORM SECTION*/
+.form_section {
+	background-image: url(../img/fon.png);
+	color: #fff;
+}
+.form_section h3{
+	padding-top: 110px;
+	text-align: center;
+}
+.form_section p{
+	padding-top:50px;
+	text-align: center;
+}
