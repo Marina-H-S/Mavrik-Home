@@ -210,8 +210,17 @@ text-align: center;
 .right_arow.carousel-control.right {
 	background-image: none;
 }
-.coments .item img {
-	margin-left: 250px;
+.coments .item  img{
+	margin: 0 auto;
+}
+#carousel-example-coment {
+	height: 375px;
+}
+.carousel-indicators li{
+	border: 1px solid black;
+}
+.carousel-indicators li.active {
+	background-color: #0042ff;
 }
 /*FORM SECTION*/
 .form_section {
@@ -225,4 +234,12 @@ text-align: center;
 .form_section p{
 	padding-top:50px;
 	text-align: center;
+}
+.form-control {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	color:#e0e0e0;
+	border-radius: 0;
+	box-shadow: none;
 }
