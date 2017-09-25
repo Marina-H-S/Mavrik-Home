@@ -126,6 +126,9 @@ nav {
 	display: flex;
 	opacity: 0;
 }
+.img-responsive{
+	width: 100%;
+}
 .work_img:hover .img_wrap{
 	opacity: 1;
 }
@@ -225,6 +228,7 @@ text-align: center;
 /*FORM SECTION*/
 .form_section {
 	background-image: url(../img/fon.png);
+	background-repeat: no-repeat;
 	color: #fff;
 }
 .form_section h3{
@@ -238,8 +242,50 @@ text-align: center;
 .form-control {
 	background: none;
 	border: none;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
 	color:#e0e0e0;
 	border-radius: 0;
 	box-shadow: none;
+}
+#email {
+	padding: 50px 0 20px;
+}
+form .info_btn {
+	margin: 60px 0 100px;
+}
+.footer{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.footer li {
+	display: inline-block;
+	padding:8px 0;
+}
+.footer li a{
+	color: #000;
+	text-transform: uppercase;
+	font-family:'AvenirNext-Medium';
+	padding: 6px 26px;
+}
+.footer li a:hover,
+.footer li a:focus {
+	text-decoration: none;
+	color: #ccccd3;
+	border: solid 1px #ccccd3;
+	padding: 5px 25px;
+	}
+		#menu_footer {
+		margin: 0;
+	}
+.black_logo {
+	padding:  32px 32px 0;
+	display: inline-block;
+}
+.black_logo img{
+	height: 30px;
+}
+.text_footer {
+	padding-top: 32px;
+		color: #ccccd3;
 }
